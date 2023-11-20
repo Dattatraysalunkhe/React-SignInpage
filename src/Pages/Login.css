@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    box-shadow:  0px 0px 30px dodgerblue;
+  /*  background-color: dodgerblue;*/
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background-color: dodgerblue;
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    border-radius: 6px;
+    background: #eaeaea;
+}
+.input img{
+    margin: 0px 30px;
+
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: dodgerblue;
+    font-size: 19px;
+}
+.forgotpassword{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: dodgerblue;
+    font-size: 18px;
+}
+.forgotpassword span{
+    color: rgb(0, 51, 102);
+    cursor: pointer;
+}
+.submitcontainer{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background-color: dodgerblue;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background: rgb(224, 71, 71);
+    color: #eaeaea;
+}
